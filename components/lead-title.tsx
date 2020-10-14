@@ -9,7 +9,8 @@ const LeadTitle = (): JSX.Element => {
 					className='font-head text-customWcdMobile relative inline-block text-center justify-center tracking-wider leading-headerP font-light cursor-default w-full min-w-full transform -translate-y-portfolioLS pb-portfolio transition-all ease-in-out'
 					style={{ marginBlockStart: '0.67em', marginBlockEnd: '0.67em' }}
 				>
-					<a className='text-customWcdMobile block'>Drisdell Consulting</a>
+					<a className='text-customWcdMobile block'>Drisdell</a>
+					<a className='text-customWcdMobile block'>Consulting</a>
 				</h1>
 			</div>
 		</Media>
