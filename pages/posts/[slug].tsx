@@ -30,7 +30,7 @@ export default function Post({ post, posts, preview }: SlugProps): JSX.Element {
 	const HeaderType = (post: any): JSX.Element => {
 		return <Header title={post.title} />;
 	};
-
+	//
 	return (
 		<Fragment>
 			<MediaContextProvider>
