@@ -7,11 +7,15 @@ const LeadTitle = (): JSX.Element => {
 		<Media lessThan='md'>
 			<div className=''>
 				<h1
-					className='font-head text-customWcdMobile relative inline-block text-center justify-center tracking-wider leading-headerP font-light cursor-default w-full min-w-full transform -translate-y-portfolioLS pb-portfolio transition-all ease-in-out'
+					className='font-head relative inline-block text-center justify-center tracking-wider leading-headerP font-light cursor-default w-full min-w-full transform -translate-y-portfolioLS pb-portfolio transition-all ease-in-out'
 					style={{ marginBlockStart: '0.67em', marginBlockEnd: '0.67em' }}
 				>
-					<a className='text-customWcdMobile block'>Drisdell</a>
-					<a className='text-customWcdMobile block'>Consulting</a>
+					<a className=' text-customWcd block pb-aboutHackingFontAwesomePT'>
+						Drisdell
+					</a>
+					<a className='text-customWcd block pb-aboutHackingFontAwesomePT'>
+						Consulting
+					</a>
 				</h1>
 			</div>
 		</Media>
