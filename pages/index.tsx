@@ -153,7 +153,7 @@ const Index = ({
 					filterFunc={(evt: SyntheticEvent): void => {
 						const element = evt.currentTarget as HTMLInputElement;
 						const searchQuery = element.value.toLowerCase();
-						setSearch(searchQuery);
+						setSearch(searchQuery);d
 					}}
 					tags={tagsAndPosts}
 					allPosts={morePosts}
