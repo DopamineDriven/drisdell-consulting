@@ -19,7 +19,7 @@ import {
 	// getAllPostsForHomeSorted,
 	// getAllPostsTitleDesc
 } from '../lib/api-ts';
-import { CMS_NAME, CLIENT_NAME } from '../lib/constants';
+import { CMS_NAME, CLIENT_NAME } from 'lib/constants';
 import Header from '../components/lead';
 // import HeroPost from '../components/hero-post';
 import SearchBox from '../components/search-box';
