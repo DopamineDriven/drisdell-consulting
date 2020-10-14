@@ -110,10 +110,11 @@ export async function getAllPostsForHomeAlphabetical({
             date
             modified
             social {
-              github
+              facebook
               linkedin
               twitter
-              website
+              instagram
+              email
             }
             featuredImage {
               node {
@@ -182,10 +183,11 @@ export async function getPostAndMorePosts({
       date
       modified
       social {
-        github
+        facebook
         linkedin
         twitter
-        website
+        instagram
+        email
       }
       featuredImage {
         node {
@@ -345,10 +347,11 @@ export async function getAllPostsForCategory({
                 slug
                 modified
                 social {
-                  github
+                  facebook
                   linkedin
                   twitter
-                  website
+                  instagram
+                  email
                   }
                 featuredImage {
                   node {
@@ -443,10 +446,11 @@ export async function getAllPostsForAbout({
             date
             modified
             social {
-              github
+              facebook
               linkedin
               twitter
-              website
+              instagram
+              email
             }
             featuredImage {
               node {
