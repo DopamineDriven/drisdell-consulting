@@ -1,3 +1,6 @@
+import { Fragment } from 'react';
+import SiteDivider from './site-divider';
+
 interface LeadSpanInterface {
 	id: number;
 	span: string;
@@ -58,10 +61,16 @@ const LeadSpan = (): JSX.Element => {
 			</span>
 		);
 	});
-	return (
+
+	const UnderConstruction = () => (
 		<p className='block font-thin tracking-tighter text-center transition-all ease-in-out transform -translate-y-landingOverviewTranslation text-customExcerptMobile md:text-customP pr-portfolioRS md:pl-portfolioLS pl-portfolioLSMobile leading-headerP font-somaRoman'>
 			Under Construction 🚧
 		</p>
+	);
+	return (
+		<Fragment>
+			<UnderConstruction />
+		</Fragment>
 	);
 };
 

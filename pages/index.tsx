@@ -160,7 +160,7 @@ const Index = ({
 					dropdownOptions={['title', 'description']}
 					categories={categories}
 				/> */}
-				<CardFilter filter={filter} setFilter={setFilter} />
+				{/* <CardFilter filter={filter} setFilter={setFilter} /> */}
 				<div className='items-center content-center justify-center block max-w-full mx-auto my-portfolioH2F'>
 					{morePosts.length > 0 && <Cards posts={filteredCompanies} />}
 				</div>

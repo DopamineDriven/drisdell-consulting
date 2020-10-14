@@ -1,8 +1,9 @@
 import { Media } from 'lib/window-width';
 import { Fragment } from 'react';
+import SiteDivider from 'components/site-divider';
 
 const LeadTitle = (): JSX.Element => {
-	const TitleMobile = (
+	const TitleMobile = () => (
 		<Media lessThan='md'>
 			<div className=''>
 				<h1
@@ -16,14 +17,17 @@ const LeadTitle = (): JSX.Element => {
 		</Media>
 	);
 
-	const TitleDesktop = (
+	const TitleDesktop = () => (
 		<Media greaterThanOrEqual='md'>
 			<div className='tracking-wider'>
 				<h1
 					className='font-head text-customWcd relative flex-grow text-center justify-center tracking-tight leading-headerP font-light cursor-default w-full min-w-full transform -translate-y-portfolioLS transition-all ease-in-out'
 					style={{ marginBlockStart: '0.67em', marginBlockEnd: '0.67em' }}
 				>
-					<a className='text-customWcd block'>Drisdell Consulting</a>
+					<a className='text-customWcd block pb-aboutHackingFontAwesomePT'>
+						Drisdell
+					</a>
+					<a className='text-customWcd block'>Consulting</a>
 				</h1>
 			</div>
 		</Media>
@@ -31,8 +35,8 @@ const LeadTitle = (): JSX.Element => {
 
 	return (
 		<Fragment>
-			{TitleMobile}
-			{TitleDesktop}
+			<TitleMobile />
+			<TitleDesktop />
 		</Fragment>
 	);
 };
