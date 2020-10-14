@@ -4,10 +4,10 @@ import {
 	faFacebook,
 	faInstagram,
 	faTwitter,
-	faLinkedin,
-	faGithub
+	faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 // interface CardIconProps {
 // 	social: {
 // 		facebook: string;
@@ -88,30 +88,30 @@ const CardIcons = ({ social }: Social) => {
 							)}
 						</a>
 					)}
-					{social.github === null ? (
+					{social.facebook === null ? (
 						<a
-							aria-label='github'
+							aria-label='facebook'
 							target='__blank'
-							href={social.github}
+							href={social.facebook}
 							className={anchorClassNull}
 						>
-							{social.github === '' ? (
+							{social.facebook === '' ? (
 								<></>
 							) : (
-								<FontAwesomeIcon icon={faGithub} className={iconClassNull} />
+								<FontAwesomeIcon icon={faFacebook} className={iconClassNull} />
 							)}
 						</a>
 					) : (
 						<a
-							aria-label='github'
+							aria-label='facebook'
 							target='__blank'
-							href={social.github}
+							href={social.facebook}
 							className={anchorClass}
 						>
-							{social.github === '' ? (
+							{social.facebook === '' ? (
 								<></>
 							) : (
-								<FontAwesomeIcon icon={faGithub} className={iconClass} />
+								<FontAwesomeIcon icon={faFacebook} className={iconClass} />
 							)}
 						</a>
 					)}
@@ -142,30 +142,57 @@ const CardIcons = ({ social }: Social) => {
 							)}
 						</a>
 					)}
-					{social.website === null ? (
+					{social.instagram === null ? (
 						<a
-							aria-label='website'
+							aria-label='instagram'
 							target='__blank'
-							href={social.website}
+							href={social.instagram}
 							className={anchorClassNull}
 						>
-							{social.website === '' ? (
+							{social.instagram === '' ? (
 								<></>
 							) : (
-								<FontAwesomeIcon icon={faCustomWebsite} className={iconClassNull} />
+								<FontAwesomeIcon icon={faInstagram} className={iconClassNull} />
 							)}
 						</a>
 					) : (
 						<a
-							aria-label='website'
+							aria-label='instagram'
 							target='__blank'
-							href={social.website}
+							href={social.instagram}
 							className={anchorClass}
 						>
-							{social.website === '' ? (
+							{social.instagram === '' ? (
 								<></>
 							) : (
-								<FontAwesomeIcon icon={faCustomWebsite} className={iconClass} />
+								<FontAwesomeIcon icon={faInstagram} className={iconClass} />
+							)}
+						</a>
+					)}
+					{social.email === null ? (
+						<a
+							aria-label='email'
+							target='__blank'
+							href={social.email}
+							className={anchorClassNull}
+						>
+							{social.email === '' ? (
+								<></>
+							) : (
+								<FontAwesomeIcon icon={faEnvelope} className={iconClassNull} />
+							)}
+						</a>
+					) : (
+						<a
+							aria-label='email'
+							target='__blank'
+							href={social.email}
+							className={anchorClass}
+						>
+							{social.email === '' ? (
+								<></>
+							) : (
+								<FontAwesomeIcon icon={faEnvelope} className={iconClass} />
 							)}
 						</a>
 					)}
