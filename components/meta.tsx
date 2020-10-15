@@ -3,11 +3,6 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants';
 import { Fragment } from 'react';
 
 const MetaData = (): JSX.Element => {
-	// const relCanonical = [
-	// 	`https://windycitydevs.io`,
-	// 	'https://windycitydevs.com',
-	// 	'https://windy-city-next.vercel.app'
-	// ];
 	return (
 		<Fragment>
 			<Head>
