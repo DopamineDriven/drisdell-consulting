@@ -4,6 +4,9 @@ interface SvgIconConstituentValues {
 	strokeWidth?: string[];
 	strokeFill?: string[];
 	fillColor?: string[];
+	fillColor1?: string;
+	fillColor2?: string;
+	fillColor3?: string;
 	imageWidth?: string;
 	imageHeight?: string;
 	rectWidth?: string;
@@ -16,6 +19,7 @@ interface SvgIconConstituentValues {
 	circY?: string;
 	width?: string;
 	height?: string;
+	classNameSvg?: string;
 	classNameP1?: string;
 	classNameP2?: string;
 	classNameP3?: string;
@@ -25,6 +29,14 @@ interface SvgIconConstituentValues {
 	classNameP7?: string;
 	classNameP8?: string;
 	classNameP9?: string;
+	classNameP10?: string;
+	classNameP11?: string;
+	classNameP12?: string;
+	classNameP13?: string;
+	classNameP14?: string;
+	classNameP15?: string;
+	classNameR1?: string;
+	classNameR2?: string;
 	rotateCenter?: number;
 	classNames?: string[];
 	style0?: CSSProperties;
