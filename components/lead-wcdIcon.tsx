@@ -1,11 +1,11 @@
-import { WcdIcon, WindyCityDevsIcon } from 'components/svg-icons';
+import { DrisdellConsultingServices } from 'components/svg-icons';
 import Link from 'next/link';
 import { Media } from 'lib/window-width';
 import { Fragment } from 'react';
 import DarkMode from 'components/lead-dark-mode';
 
-const ArIconConditional = (): JSX.Element => {
-	const arIconXs: JSX.Element = (
+const DrisdellIconConditional = (): JSX.Element => {
+	const drIconXs: JSX.Element = (
 		<Media at='xs'>
 			<Link href='/'>
 				<a
@@ -13,21 +13,18 @@ const ArIconConditional = (): JSX.Element => {
 					id='top'
 					aria-label='top'
 				>
-					<WindyCityDevsIcon
+					<DrisdellConsultingServices
 						width='18vw'
 						height='18vw'
-						classNames={[
-							` antialised w-svgIcon max-w-svgIcon transform transition-all`
-							// '  stroke-current',
-							// ` fill-primary`
-						]}
+						classNameP1=' fill-primary'
+						classNameSvg={` antialised w-svgIcon max-w-svgIcon transform transition-all`}
 					/>
 				</a>
 			</Link>
 		</Media>
 	);
 
-	const arIconSm: JSX.Element = (
+	const drIconSm: JSX.Element = (
 		<Media at='sm'>
 			<Link href='/'>
 				<a
@@ -35,21 +32,18 @@ const ArIconConditional = (): JSX.Element => {
 					id='top'
 					aria-label='top'
 				>
-					<WindyCityDevsIcon
+					<DrisdellConsultingServices
 						width='15vw'
 						height='15vw'
-						classNames={[
-							` antialised w-svgIcon max-w-svgIcon transform transition-all`
-							// '  stroke-current',
-							// ` fill-primary`
-						]}
+						classNameP1=' fill-primary'
+						classNameSvg={` antialised w-svgIcon max-w-svgIcon transform transition-all`}
 					/>
 				</a>
 			</Link>
 		</Media>
 	);
 
-	const arIconMd: JSX.Element = (
+	const drIconMd: JSX.Element = (
 		<Media at='md'>
 			<Link href='/'>
 				<a
@@ -57,21 +51,18 @@ const ArIconConditional = (): JSX.Element => {
 					id='top'
 					aria-label='top'
 				>
-					<WindyCityDevsIcon
+					<DrisdellConsultingServices
 						width='12vw'
 						height='12vw'
-						classNames={[
-							` antialised w-svgIcon max-w-svgIcon transform transition-all`
-							// '  stroke-current',
-							// ` fill-primary`
-						]}
+						classNameP1=' fill-primary'
+						classNameSvg={` antialised w-svgIcon max-w-svgIcon transform transition-all`}
 					/>
 				</a>
 			</Link>
 		</Media>
 	);
 
-	const arIconDesktop: JSX.Element = (
+	const drIconDesktop: JSX.Element = (
 		<Media greaterThan='md'>
 			<Link href='/'>
 				<a
@@ -79,14 +70,11 @@ const ArIconConditional = (): JSX.Element => {
 					id='top'
 					aria-label='top'
 				>
-					<WindyCityDevsIcon
+					<DrisdellConsultingServices
 						width='10vw'
 						height='10vw'
-						classNames={[
-							` antialised w-svgIcon max-w-svgIcon transform transition-all`
-							// '  stroke-current',
-							// ` fill-primary`
-						]}
+						classNameP1=' fill-primary'
+						classNameSvg={` antialised w-svgIcon max-w-svgIcon transform transition-all`}
 					/>
 				</a>
 			</Link>
@@ -99,24 +87,24 @@ const ArIconConditional = (): JSX.Element => {
 		</div>
 	);
 
-	const ArIconsCoalesced = (): JSX.Element => (
+	const DrisdellIconsCoalesced = (): JSX.Element => (
 		<Fragment>
 			<div className='relative justify-between block w-full min-w-full col-span-2 transition-all lg:w-auto lg:static lg:block lg:justify-start'>
-				{arIconXs}
-				{arIconSm}
-				{arIconMd}
-				{arIconDesktop}
+				{drIconXs}
+				{drIconSm}
+				{drIconMd}
+				{drIconDesktop}
 			</div>
 		</Fragment>
 	);
 	return (
 		<Fragment>
 			<div className='container relative grid justify-between w-full min-w-full grid-cols-6 overflow-x-hidden overflow-y-hidden transform select-none -translate-y-portfolio z-1 navbar-expand-lg'>
-				<ArIconsCoalesced />
+				<DrisdellIconsCoalesced />
 				<DarkModeToggler />
 			</div>
 		</Fragment>
 	);
 };
 
-export default ArIconConditional;
+export default DrisdellIconConditional;
