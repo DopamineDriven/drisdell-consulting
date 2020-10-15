@@ -32,44 +32,35 @@ const MetaData = (): JSX.Element => {
 				<link rel='manifest' href='/meta/manifest.json' />
 				<link rel='mask-icon' href='/meta/safari-pinned-tab.svg' color='#000000' />
 				<link rel='shortcut icon' href='/meta/favicon.ico' />
-				<link rel='canonical' href='https://windy-city-next.vercel.app' />
+				<link rel='canonical' href='https://drisdell-consulting.vercel.app' />
 				<meta name='robots' content='all' />
 				<meta
 					name='viewport'
 					content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5'
 				/>
 				<meta name='format-detection' content='telephone=no' />
-				<title>Windy City Devs - Modernizing Your Web Presence</title>
+				<title>Drisdell Consulting Services</title>
 				<meta name='msapplication-TileColor' content='#000000' />
 				<meta name='msapplication-config' content='/meta/browserconfig.xml' />
 				<meta name='theme-color' content='#000000' />
 				<link rel='alternate' type='application/rss+xml' href='/feed.xml' />
-				<meta
-					name='description'
-					content={`${CMS_NAME} via Nextjs; the React framework for production. Andrew Ross is a Chicago based full stack engineer who specializes in Next.js, TypeScript, React, Apollo, GraphQL, MongoDB, PostgreSQL Headless CMSs, JAMstack, MERN, Tailwind CSS, Static Site Generation, SEO, and Server Side Rendering`}
-				/>
+				<meta name='description' content={`${CMS_NAME} via BlueHost`} />
 				<meta charSet='utf-8' />
 				<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 				<meta
 					name='keywords'
-					content='nextjs, typescript, react, react-markdown, static site generation, tailwindcss, vercel, figma'
+					content='nextjs, typescript, react, incremental static site regeneration, WPGraphQL, Apollo, GraphQL, headless wordpress, tailwindcss, vercel, figma'
 				/>
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:site' content='@Dopamine_Driven' />
 				<meta name='twitter:title' content='Andrew Ross — Full-Stack Engineer' />
-				<meta
-					name='twitter:description'
-					content={`${CMS_NAME} via Nextjs; the React framework for production. Andrew Ross is a Chicago based full stack engineer who specializes in Next.js, TypeScript, React, Apollo, GraphQL, MongoDB, PostgreSQL Headless CMSs, JAMstack, MERN, Tailwind CSS, Static Site Generation, SEO, and Server Side Rendering`}
-				/>
+				<meta name='twitter:description' content={`${CMS_NAME} via BlueHost`} />
 				<meta name='twitter:image' content={HOME_OG_IMAGE_URL} />
 				<meta name='twitter:creator' content='@Dopamine_Driven' />
 				<meta property='og:type' content='website' />
-				<meta property='og:url' content='https://andrewross.dev/' />
-				<meta property='og:title' content='Andrew Ross — Full-Stack Engineer' />
-				<meta
-					property='og:description'
-					content={`${CMS_NAME} via Nextjs; the React framework for production. Andrew Ross is a Chicago based full stack engineer who specializes in Next.js, TypeScript, React, Apollo, GraphQL, MongoDB, PostgreSQL Headless CMSs, JAMstack, MERN, Tailwind CSS, Static Site Generation, SEO, and Server Side Rendering`}
-				/>
+				<meta property='og:url' content='https://drisdell-consulting.vercel.app' />
+				<meta property='og:title' content='Drisdell Consulting Services' />
+				<meta property='og:description' content={`${CMS_NAME} via BlueHost`} />
 				<meta property='og:image' content={HOME_OG_IMAGE_URL} />
 				<meta property='og:image:width' content='2048' />
 				<meta property='og:image:height' content='1170' />

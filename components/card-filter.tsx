@@ -38,7 +38,7 @@ const CardFilter = ({ filter, setFilter }: CardFilterProps) => {
 			>
 				<option value={AUTHOR}>Author</option>
 				<option value={DATE}>Date</option>
-				<option value={MODIFIED}>Modified</option>
+				<option defaultValue={MODIFIED}>Modified</option>
 				<option value={TITLE}>Title</option>
 			</select>
 			<div className='pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700'>
