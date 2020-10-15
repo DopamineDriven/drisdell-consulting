@@ -1,7 +1,7 @@
 {
-	"name": "Windy City Devs",
-	"short_name": "WCD",
-	"start_url": "https://windycitydevs.io",
+	"name": "Drisdell Consulting Services",
+	"short_name": "Drisdell",
+	"start_url": "https://drisdell-consulting.vercel.app",
 	"icons": [
 		{
 			"src": "/meta/android-chrome-192x192.png",
