@@ -39,7 +39,7 @@ const MetaData = (): JSX.Element => {
 				<meta name='msapplication-config' content='/meta/browserconfig.xml' />
 				<meta name='theme-color' content='#000000' />
 				<link rel='alternate' type='application/rss+xml' href='/feed.xml' />
-				<meta name='description' content={`${CMS_NAME} via BlueHost`} />
+				<meta name='description' content={`${CMS_NAME}`} />
 				<meta charSet='utf-8' />
 				<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 				<meta
@@ -49,13 +49,13 @@ const MetaData = (): JSX.Element => {
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:site' content='@Dopamine_Driven' />
 				<meta name='twitter:title' content='Andrew Ross — Full-Stack Engineer' />
-				<meta name='twitter:description' content={`${CMS_NAME} via BlueHost`} />
+				<meta name='twitter:description' content={`${CMS_NAME}`} />
 				<meta name='twitter:image' content={HOME_OG_IMAGE_URL} />
 				<meta name='twitter:creator' content='@Dopamine_Driven' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://drisdell-consulting.vercel.app' />
 				<meta property='og:title' content='Drisdell Consulting Services' />
-				<meta property='og:description' content={`${CMS_NAME} via BlueHost`} />
+				<meta property='og:description' content={`${CMS_NAME}`} />
 				<meta property='og:image' content={HOME_OG_IMAGE_URL} />
 				<meta property='og:image:width' content='2048' />
 				<meta property='og:image:height' content='1170' />
