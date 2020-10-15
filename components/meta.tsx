@@ -32,14 +32,14 @@ const MetaData = (): JSX.Element => {
 				<link rel='manifest' href='/meta/manifest.json' />
 				<link rel='mask-icon' href='/meta/safari-pinned-tab.svg' color='#000000' />
 				<link rel='shortcut icon' href='/meta/favicon.ico' />
-				<link rel='canonical' href='https://windy-city-next.vercel.app' />
+				<link rel='canonical' href='https://drisdell-consulting.vercel.app' />
 				<meta name='robots' content='all' />
 				<meta
 					name='viewport'
 					content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5'
 				/>
 				<meta name='format-detection' content='telephone=no' />
-				<title>Windy City Devs - Modernizing Your Web Presence</title>
+				<title>Drisdell Consulting Services</title>
 				<meta name='msapplication-TileColor' content='#000000' />
 				<meta name='msapplication-config' content='/meta/browserconfig.xml' />
 				<meta name='theme-color' content='#000000' />
