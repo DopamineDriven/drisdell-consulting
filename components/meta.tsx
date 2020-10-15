@@ -26,7 +26,7 @@ const MetaData = (): JSX.Element => {
 				/>
 				<link rel='manifest' href='/meta/manifest.json' />
 				<link rel='mask-icon' href='/meta/safari-pinned-tab.svg' color='#000000' />
-				<link rel='shortcut icon' href='/meta/favicon-32x32.png' />
+				<link rel='shortcut icon' href='/meta/favicon.ico' />
 				<link rel='canonical' href='https://drisdell-consulting.vercel.app' />
 				<meta name='robots' content='all' />
 				<meta
