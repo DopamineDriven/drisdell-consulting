@@ -10,23 +10,27 @@ const MetaData = (): JSX.Element => {
 					rel='apple-touch-icon'
 					type='img/png'
 					sizes='180x180'
-					href='/meta/apple-touch-icon.png'
+					href='/public/meta/apple-touch-icon.png'
 				/>
 				<link
 					rel='icon'
 					type='image/png'
 					sizes='32x32'
-					href='/meta/favicon-32x32.png'
+					href='/public/meta/favicon-32x32.png'
 				/>
 				<link
 					rel='icon'
 					type='image/png'
 					sizes='16x16'
-					href='/meta/favicon-16x16.png'
+					href='/public/meta/favicon-16x16.png'
 				/>
-				<link rel='manifest' href='/meta/manifest.json' />
-				<link rel='mask-icon' href='/meta/safari-pinned-tab.svg' color='#000000' />
-				<link rel='shortcut icon' href='/favicon.ico' />
+				<link rel='manifest' href='/public/meta/manifest.json' />
+				<link
+					rel='mask-icon'
+					href='/public/meta/safari-pinned-tab.svg'
+					color='#000000'
+				/>
+				<link rel='shortcut icon' href='/public/favicon.ico' />
 				<link rel='canonical' href='https://drisdell-consulting.vercel.app' />
 				<meta name='robots' content='all' />
 				<meta
@@ -36,7 +40,10 @@ const MetaData = (): JSX.Element => {
 				<meta name='format-detection' content='telephone=no' />
 				<title>Drisdell Consulting Services</title>
 				<meta name='msapplication-TileColor' content='#000000' />
-				<meta name='msapplication-config' content='/meta/browserconfig.xml' />
+				<meta
+					name='msapplication-config'
+					content='/public/meta/browserconfig.xml'
+				/>
 				<meta name='theme-color' content='#000000' />
 				<link rel='alternate' type='application/rss+xml' href='/feed.xml' />
 				<meta name='description' content={`${CMS_NAME} via BlueHost`} />
