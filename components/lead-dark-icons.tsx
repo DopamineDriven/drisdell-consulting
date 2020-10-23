@@ -62,7 +62,7 @@ const DarkModeSwitch: FC<Props> = (props): JSX.Element => {
 		style,
 		r1 = '0',
 		r2 = '11',
-		className = 'transition-all transform outline-none stroke-current  text-primary fill-primary rotate-855',
+		className = ' transition-all transform outline-none stroke-current animate text-primary fill-primary rotate-855',
 		...rest
 	} = props;
 	const properties = useMemo(() => {
