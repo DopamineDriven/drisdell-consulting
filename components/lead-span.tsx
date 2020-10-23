@@ -63,7 +63,7 @@ const LeadSpan = (): JSX.Element => {
 	});
 
 	const UnderConstruction = () => (
-		<p className='block font-thin tracking-tighter text-justify justify-between transition-all ease-in-out transform -translate-y-landingOverviewTranslation text-customExcerptMobile md:text-customP pr-portfolioRS md:pl-portfolioLS pl-portfolioLSMobile leading-headerP font-somaRoman'>
+		<p className='block font-thin tracking-tighter text-justify justify-center transition-all ease-in-out transform -translate-y-landingOverviewTranslation text-customExcerptMobile md:text-customS md:p-portfolioLS pl-portfolioLSMobile leading-headerP font-somaRoman'>
 			Drisdell Consulting Services, Inc. provides expert professional services for
 			all areas of IT system implementation and support.  Since 1995, we have
 			provided quality services and custom application development solutions to our

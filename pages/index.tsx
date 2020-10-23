@@ -53,6 +53,7 @@ import {
 // } from 'graphql/__generated__/AllPosts';
 // import ALL_POSTS from '../graphql/api-all-posts';
 import { useQuery } from '@apollo/client';
+import Meta from 'components/meta';
 
 interface IndexProps {
 	allPosts: AllPostsProps;
@@ -135,6 +136,7 @@ const Index = ({
 	return (
 		<Fragment>
 			<MediaContextProvider>
+				<Meta />
 				<Header />
 
 				<Head>

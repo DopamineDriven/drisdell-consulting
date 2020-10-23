@@ -13,8 +13,8 @@ const LeadTitle = (): JSX.Element => {
 					<a className=' text-customWcd block pb-aboutHackingFontAwesomePT'>
 						Drisdell
 					</a>
-					<a className='text-customWcd block pb-aboutHackingFontAwesomePT'>
-						Consulting
+					<a className='text-customWcdMobile block pb-aboutHackingFontAwesomePT'>
+						Consulting Services
 					</a>
 				</h1>
 			</div>
@@ -31,7 +31,7 @@ const LeadTitle = (): JSX.Element => {
 					<a className='text-customWcd block pb-aboutHackingFontAwesomePT'>
 						Drisdell
 					</a>
-					<a className='text-customWcd block'>Consulting</a>
+					<a className='text-customWcdMobile block'>Consulting Services</a>
 				</h1>
 			</div>
 		</Media>

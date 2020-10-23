@@ -49,7 +49,7 @@ interface Props {
 	r2?: string;
 }
 
-const DarkModeSwitch: FC<Props> = (props): JSX.Element => {
+const DarkModeSwitch: FC<Props> = props => {
 	const {
 		onChange,
 		children,
