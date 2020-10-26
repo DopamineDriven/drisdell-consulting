@@ -1,5 +1,9 @@
 # drisdell-consulting
 
+## Client appreciates this type of design
+
+- https://thompsontechnologies.com/
+
 ## License html
 
 Decapitating Traditional WordPress by Andrew Ross is licensed under CC BY-SA 4.0.
